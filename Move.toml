@@ -1,0 +1,15 @@
+[package]
+name = "Proposal_Funding"
+version = "1.0.0"
+authors = []
+
+[addresses]
+saranya_addr = "7b98688148da58885b5c964ba8e3368d2420bb1ebbe14762a808c8e70e4dca9b"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
